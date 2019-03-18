@@ -54,4 +54,21 @@ func main() {
 			fmt.Printf("i = %d, j = %d\n", i, j)
 		}
 	}
+
+	/**
+	Array of functions
+	*/
+	for _, action := range []func() int{
+		func() int {
+			return 1
+		},
+		func() int {
+			return 2
+		},
+		func() int {
+			return 3
+		}} {
+		fmt.Print(action())
+	}
+
 }
