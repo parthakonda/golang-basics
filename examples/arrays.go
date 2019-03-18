@@ -16,6 +16,9 @@ func main() {
 	Arrays can store data of same type
 	*/
 	var marks = []int{}
+	var source = []int{1, 2, 3}
+	destination := source
+
 	marks = append(marks, 20)
 	fmt.Print(marks)
 
@@ -50,5 +53,18 @@ func main() {
 			fmt.Printf("row - %d, col - %d, value: %d", i, j, col)
 		}
 	}
-	fmt.Printf("sum of values is %d", getSum([]int{1, 2, 3}))
+	fmt.Printf("sum of values is %d\n", getSum([]int{1, 2, 3}))
+
+	fmt.Println("source = ", source)
+	fmt.Println("destination = ", destination)
+	// Modifying source
+	source[0] = 5
+	fmt.Println("source = ", source)
+	fmt.Println("destination = ", destination)
+
+	// Modifying destination
+	destination[0] = 6
+	fmt.Println("source = ", source)
+	fmt.Println("destination = ", destination)
+
 }
