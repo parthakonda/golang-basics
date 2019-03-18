@@ -58,5 +58,4 @@ func main() {
 	fmt.Printf("ptr = ", ptr)
 	fmt.Printf("&ptr = ", &ptr)
 	fmt.Printf("*ptr = ", *ptr)
-
 }

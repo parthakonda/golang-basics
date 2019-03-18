@@ -74,5 +74,4 @@ func main() {
 	case int:
 		fmt.Printf("type of a is int")
 	}
-
 }

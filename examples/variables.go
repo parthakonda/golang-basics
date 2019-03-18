@@ -3,24 +3,24 @@ package main
 import "fmt"
 
 func main() {
-	var boolean_var bool
-	var unsigned_int8_variable uint8
-	var unsigned_int16_variable uint16
-	var unsigned_int32variable uint32
-	var unsigned_int64_variable uint64
-	var unsigned_int_variable uint
+	var booleanVar bool
+	var unsignedInt8Variable uint8
+	var unsignedInt16Variable uint16
+	var unsignedInt32variable uint32
+	var unsignedInt64Variable uint64
+	var unsignedIntVariable uint
 
 	var i, j, k = 1, true, "test"
 	dynamic := "Know"
 
-	unsigned_int8_variable = 255
+	unsignedInt8Variable = 255
 
-	fmt.Println(boolean_var)
-	fmt.Println(unsigned_int8_variable)
-	fmt.Println(unsigned_int16_variable)
-	fmt.Println(unsigned_int32variable)
-	fmt.Println(unsigned_int64_variable)
-	fmt.Println(unsigned_int_variable)
+	fmt.Println(booleanVar)
+	fmt.Println(unsignedInt8Variable)
+	fmt.Println(unsignedInt16Variable)
+	fmt.Println(unsignedInt32variable)
+	fmt.Println(unsignedInt64Variable)
+	fmt.Println(unsignedIntVariable)
 	fmt.Println(i, j, k)
 	fmt.Println(dynamic)
 }

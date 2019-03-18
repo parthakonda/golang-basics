@@ -70,5 +70,4 @@ func main() {
 		}} {
 		fmt.Print(action())
 	}
-
 }
