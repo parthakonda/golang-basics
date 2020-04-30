@@ -1,2 +1,3 @@
-# golang-experiments
-Understanding basic functionality in golang
+# Understanding basic functionality in golang
+
+
