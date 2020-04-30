@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	router.POST("/login", Login)
+	router.GET("/", Compute)
 	log.Fatal(router.Run(":8080"))
 }
